@@ -25,6 +25,33 @@ let products = [
             "Offering a formidable core experience for serious gaming and multitasking on Windows 10 Pro",
         image: "./images/asus.jpg",
     },
+    {
+        id: 2539,
+        name: "Logitech C505/C505e HD Wired Webcam",
+        price: 149,
+        category: "Webcams",
+        description:
+            "Offering a formidable core experience for serious gaming and multitasking on Windows 10 Pro",
+        image: "./images/webcam_logitech.png",
+    },
+    {
+        id: 2540,
+        name: "JBL Boombox Portable Bluetooth Waterproof Speaker",
+        price: 990,
+        category: "Speakers",
+        description:
+            "Epic sound. All day long. Made to be the most powerful, portable Bluetooth speaker, JBL Boombox delivers monstrous sound along with the hardest hitting bass. Enjoy music for 24 hours without missing a beat. Imagine playing with your favorite beats from sunrise to sunrise on a single charge. ",
+        image: "./images/jbl_speaker.jpg",
+    },
+    {
+        id: 2541,
+        name: "TOOBUR Smart Watch Alexa Built-in",
+        price: 180,
+        category: "Watches",
+        description:
+            "	Alexa Built-in, Compatible with Bluetooth Calls, iPhone & Android Compatible, Notifications, Heart Rate, Sleep Tracker, Oxymeter (SpO2), Step Calorie Counter, Activity Tracker, 100 Sport Modes, IP68 Waterproof, Find My PhoneAlexa Built-in, Compatible with Bluetooth Calls, iPhone & Android Compatible, Notifications, Heart Rate, Sleep Tracker, Oxymeter (SpO2), Step Calorie Counter, Activity Tracker, 100 Sport Modes, IP68 Waterproof, Find My Phone",
+        image: "./images/toobur_watches.jpg",
+    },
 ];
 
 // לכתוב פונקציה שתפקידה להציג את המוצרים בקארדים של בוטסטרפ
@@ -34,11 +61,11 @@ let products = [
 function showProducts() {
     for (let i = 0; i < products.length; i++) {
         document.getElementById("products").innerHTML +=
-            `<div class="col-md-4">
+            `<div class="col-md-4 mt-3">
             <div class="card" style="width: 18rem;margin:0 auto;">
         <img src="${products[i].image}" class="card-img-top" alt="${products[i].name}">
             <div class="card-body">
-                <h5 class="card-title">Name:${products[i].name}</h5>
+                <h5 class="card-title">${products[i].name}</h5>
                 <p class="card-text">${products[i].category}</p>
                 <a data-bs-toggle="modal" data-bs-target="#infoModal" class="btn btn-primary w-100" onclick="setModal(${i})">See more</a>
             </div>
@@ -57,3 +84,5 @@ function setModal(index) {
     <h4 class="text-end"><b>Price:</b>${products[index].price}</h4>`
 
 }
+
+
