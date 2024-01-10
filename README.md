@@ -20,14 +20,27 @@ For any inquiries or feedback, feel free to contact our team at 298Ron@gmail.com
 
 Thank you for exploring TechIt on GitHub. Happy coding and happy shopping! 🛒✨
 
+
+Home Page
+
 <img width="1097" alt="image" src="https://github.com/298Ron/TECHIT/assets/132360307/b2f0d54b-d57e-4460-a2ba-e74ab3a7f060">
 
+Products Page
 
 <img width="1097" alt="image" src="https://github.com/298Ron/TECHIT/assets/132360307/053595f7-109c-4f1f-bfcf-97a3fc039a20">
 
+Products Page [Product Info Modal]
 
 <img width="1097" alt="image" src="https://github.com/298Ron/TECHIT/assets/132360307/a8250a74-290e-431a-a5b0-8804df462b91">
 
+Contact Us Page
 
 <img width="1097" alt="image" src="https://github.com/298Ron/TECHIT/assets/132360307/920b3df3-fed0-4cb9-8dec-e780af915145">
 
+Code Preview [Home Page Bootstrap Carousel]
+
+<img width="517" alt="image" src="https://github.com/298Ron/TECHIT/assets/132360307/dbc9cc8e-3c22-4ac8-be28-ad17196d92ad">
+
+Code Preview [Products.js (The products array)]
+
+<img width="737" alt="image" src="https://github.com/298Ron/TECHIT/assets/132360307/3eda6efb-fc39-464a-b844-2b7d6e2d0878">
